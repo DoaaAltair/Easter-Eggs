@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    background-image: url('/foto/screencapture-fightclub-nl-2025-03-17-11_47_57.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top left;
+    min-height: 10390px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    min-height: 10390px;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+#fightclub-hond {
+    grid-column: 1 / 3;
+    position: fixed;
+    top: 35px;
+    left: 20px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#fightclub-hond:hover {
+    cursor: url('/foto/boxhandschoen.png') 24 24, pointer;
+}
+
+#enorm-logo {
+    grid-column: 1 / 3;
+    position: fixed;
+    top: 70px;
+    left: 50px;
+    z-index: 1;
+    transition: all 3s ease, width 0.5s ease, height 0.5s ease;
+    cursor: pointer;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.6));
+}
+
+#enorm-logo:not(.hidden) {
+    width: 300px;
+    height: 150px;
+}
+
+/* #boxing-glove-cursor {
+    width: 30px;
+    height: 30px;
+} */
+
+#boxing-glove {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background: url('/foto/red-box.png') no-repeat;
+    background-size: contain;
+    transition: left 0.3s ease-out, transform 0.3s ease-out;
+    z-index: 3;
+}
+
+#fightclub-logo {
+    grid-column: 5 / 9;
+    position: fixed;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.6));
+}
+
+#fightclub-logo.falling {
+    animation: fall 2.5s forwards;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-300px);
+    }
+
+    20% {
+        transform: translateY(-30px);
+    }
+
+    80% {
+        transform: translateY(0);
+    }
+
+    90% {
+        transform: translateY(-2px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
