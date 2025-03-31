@@ -9,7 +9,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #000;
-    background-image: url('/foto/screencapture-fightclub-nl-2025-03-17-11_47_57.png');
+    background-image: url('./foto/screencapture-fightclub-nl-2025-03-17-11_47_57.png');
     background-repeat: no-repeat;
     background-size: auto;
     background-position: top left;
@@ -40,7 +40,7 @@ body {
 }
 
 #fightclub-hond:hover {
-    cursor: url('/foto/boxhandschoen.png') 24 24, pointer;
+    cursor: url('./foto/boxhandschoen.png') 24 24, pointer;
 }
 
 #enorm-logo {
@@ -68,7 +68,7 @@ body {
     position: fixed;
     width: 200px;
     height: 200px;
-    background: url('/foto/red-box.png') no-repeat;
+    background: url('./foto/red-box.png') no-repeat;
     background-size: contain;
     transition: left 0.3s ease-out, transform 0.3s ease-out;
     z-index: 3;
