@@ -65,3 +65,15 @@ Ontwikkelen van een interactieve Easter egg die de overgang van **Enorm** naar *
    ```bash
    git clone https://github.com/DoaaAltair/Easter-Eggs.git
    cd Easter-Eggs
+   Open index.html lokaal:
+
+2. Open het bestand in je browser door erop te dubbelklikken
+of
+
+Start een lokale webserver (aanbevolen bij gebruik van media/geluid):
+
+Als je bijvoorbeeld Python hebt geïnstalleerd:
+   python -m http.server
+   
+En bezoek vervolgens in je browser:
+   http://localhost:8000
