@@ -2,21 +2,13 @@
 
 Een interactieve Easter egg die op speelse wijze de overgang van **Enorm** naar **Fightclub** visualiseert. De animatie combineert branding, interactie en verrassing in een verborgen ervaring die alleen zichtbaar wordt bij specifieke acties van de gebruiker.
 
-> 🚀 Live demo: [Bekijk de Easter Egg](https://easter-eggs-doaaaltair.vercel.app)
+> 🚀 Live demo: [Bekijk de Easter Egg](https://vercel.com/doaa1devs-projects/easter-eggs)
 
 ---
 
 ## 🎯 Doel van het project
 
 Ontwikkelen van een interactieve Easter egg die de overgang van **Enorm** naar **Fightclub** markeert en op een verrassende manier de identiteit van beide bedrijven samenbrengt. De ervaring is verborgen – bezoekers ontdekken het alleen via speelse interactie.
-
----
-
-## 📸 Screenshots
-
-| Enorm-logo vliegt | Bokshandschoen verschijnt | Confetti + Fightclub-logo |
-|-------------------|---------------------------|----------------------------|
-| ![vliegend logo](./public/screenshots/enorm-flying.png) | ![handschoen](./public/screenshots/punch.png) | ![confetti](./public/screenshots/confetti.png) |
 
 ---
 
