@@ -2,7 +2,7 @@
 
 Een interactieve Easter egg die op speelse wijze de overgang van **Enorm** naar **Fightclub** visualiseert. De animatie combineert branding, interactie en verrassing in een verborgen ervaring die alleen zichtbaar wordt bij specifieke acties van de gebruiker.
 
-> 🚀 Live demo: [Bekijk de Easter Egg](https://vercel.com/doaa1devs-projects/easter-eggs)
+> 🚀 Live demo: [Bekijk de Easter Egg](https://easter-eggs-beta.vercel.app/)
 
 ---
 
